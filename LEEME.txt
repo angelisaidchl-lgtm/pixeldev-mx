@@ -1,0 +1,35 @@
+PIXELDEV MX — Renovación de la página
+
+Archivos:
+- index.html: estructura de la página
+- style.css: diseño, responsive y animaciones
+- script.js: carga automática de scripts y tutoriales
+- tutoriales.json: lista de videos
+- ejemplo.lua: script de muestra
+
+SUBIR TUTORIAL:
+Edita tutoriales.json en GitHub. Debe ser una sola lista [] y cada tutorial un objeto {}.
+Ejemplo:
+[
+  {"titulo":"Nombre","descripcion":"Descripción","url":"https://..."},
+  {"titulo":"Otro video","descripcion":"Qué enseña","url":"https://..."}
+]
+No coloques puntos suspensivos ni repitas los corchetes. Usa comas entre objetos.
+
+SUBIR SCRIPTS:
+Sube archivos .lua o .luau a la raíz del repositorio. El catálogo consulta GitHub automáticamente.
+Los archivos solo se muestran en la biblioteca si están en la raíz del repositorio.
+
+DONACIONES:
+Por seguridad, el botón está desactivado hasta que configures un enlace de donación.
+En script.js, cambia:
+const DONATION_URL = "";
+por:
+const DONATION_URL = "TU_ENLACE_DE_DONACION";
+Usa un método de pago legítimo administrado por un adulto responsable si eres menor de edad. Nunca pongas contraseñas, tokens o datos bancarios en estos archivos.
+
+PUBLICAR:
+Sube/reemplaza estos archivos en la raíz del repositorio pixeldev-mx y confirma los cambios (Commit changes). GitHub Pages puede tardar unos minutos en actualizarse.
+
+NOTA:
+GitHub Pages es una web estática. El panel de administración se realiza desde GitHub; no hay contraseña privada dentro de esta página.

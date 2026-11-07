@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090812">
+  <meta name="description" content="PixelDev MX: scripts, recursos y tutoriales para crear juegos de Roblox desde Studio Lite.">
+  <title>PixelDev MX — Crea desde cualquier lugar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-a"></div><div class="ambient ambient-b"></div>
+  <header class="topbar">
+    <a class="brand" href="#inicio" aria-label="PixelDev MX inicio">
+      <span class="brand-mark">P<span>✦</span></span><span>PIXELDEV <b>MX</b></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <nav class="nav" id="nav">
+      <a href="#inicio">Inicio</a><a href="#scripts">Scripts</a><a href="#tutoriales">Tutoriales</a><a href="#comunidad">Comunidad</a>
+      <a class="nav-admin" href="https://github.com/angelisaidchl-lgtm/pixeldev-mx" target="_blank" rel="noopener">Panel creador ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="inicio">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="pulse"></span> DESARROLLO MÓVIL · ROBLOX</div>
+        <h1>Tu creatividad.<br><span class="gradient-text">Sin límites.</span></h1>
+        <p class="hero-lead">Scripts, ideas y tutoriales para crear experiencias increíbles en Roblox, incluso desde tu celular.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#scripts">Explorar scripts <span>↘</span></a>
+          <a class="button secondary" href="#tutoriales">Ver tutoriales <span>▶</span></a>
+        </div>
+        <div class="hero-stats"><div><strong>01</strong><span>Scripts para explorar</span></div><div><strong>∞</strong><span>Ideas por construir</span></div><div><strong>MX</strong><span>Comunidad creadora</span></div></div>
+      </div>
+      <div class="hero-art reveal">
+        <div class="orb orb-1"></div><div class="orb orb-2"></div>
+        <div class="code-window">
+          <div class="window-top"><span class="window-dots"><i></i><i></i><i></i></span><span>PIXELDEV / CREATOR</span><span class="window-live">● ONLINE</span></div>
+          <div class="code-content"><span class="code-muted">-- crea algo extraordinario</span><br><span class="code-purple">local</span> <span class="code-white">idea</span> = <span class="code-green">"PixelDev MX"</span><br><br><span class="code-purple">while</span> idea <span class="code-purple">do</span><br>&nbsp;&nbsp;Build<span class="code-blue">(</span>idea<span class="code-blue">)</span><br>&nbsp;&nbsp;Learn<span class="code-blue">()</span><br>&nbsp;&nbsp;Create<span class="code-blue">()</span><br><span class="code-purple">end</span><span class="cursor">▌</span></div>
+          <div class="window-footer"><span>Luau · Creator mode</span><span>✦ 100% imaginación</span></div>
+        </div>
+        <div class="floating-chip chip-top">✦ Studio Lite</div><div class="floating-chip chip-bottom">⌁ Hecho para creadores</div>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="PixelDev MX"><div>CREA DESDE ANDROID <span>✦</span> APRENDE LUAU <span>✦</span> CONSTRUYE TU JUEGO <span>✦</span> CREA DESDE ANDROID <span>✦</span> APRENDE LUAU <span>✦</span></div></section>
+
+    <section class="section" id="scripts">
+      <div class="section-heading reveal"><div><div class="eyebrow">RECURSOS DE LA COMUNIDAD</div><h2>Biblioteca de <span class="gradient-text">scripts.</span></h2><p>Explora y descarga recursos compartidos por PixelDev MX.</p></div><span class="section-number">01 / SCRIPTS</span></div>
+      <div class="toolbar reveal"><label class="search-box"><span>⌕</span><input id="scriptSearch" type="search" placeholder="Buscar scripts..." aria-label="Buscar scripts"></label><span class="live-label"><span class="pulse"></span> Sincronizado con GitHub</span></div>
+      <div id="scriptsGrid" class="cards-grid"><div class="loading-card">Conectando con la biblioteca…</div></div>
+      <p class="small-note" id="scriptStatus">Los scripts publicados en la raíz del repositorio aparecerán aquí automáticamente.</p>
+    </section>
+
+    <section class="tutorial-section" id="tutoriales">
+      <div class="section">
+        <div class="section-heading reveal"><div><div class="eyebrow">APRENDE A TU RITMO</div><h2>Zona de <span class="gradient-text">tutoriales.</span></h2><p>Videos seleccionados para aprender, experimentar y mejorar.</p></div><span class="section-number">02 / VIDEOS</span></div>
+        <div class="tutorial-tools reveal"><label class="search-box"><span>⌕</span><input id="tutorialSearch" type="search" placeholder="Buscar tutorial..." aria-label="Buscar tutorial"></label><span class="small-note">Videos de TikTok, YouTube y otras plataformas</span></div>
+        <div id="tutorialGrid" class="tutorial-grid"><div class="loading-card">Cargando tutoriales…</div></div>
+        <div class="empty-tutorials" id="tutorialEmpty" hidden>No hay tutoriales que coincidan. Prueba otra búsqueda.</div>
+      </div>
+    </section>
+
+    <section class="section community" id="comunidad">
+      <div class="community-panel reveal"><div class="community-glow"></div><div class="community-copy"><div class="eyebrow">ESTO RECIÉN COMIENZA</div><h2>Las grandes ideas<br>empiezan con <span class="gradient-text">un primer paso.</span></h2><p>PixelDev MX es un espacio para aprender, compartir y crear. Sigue explorando y construye algo que te represente.</p><a class="button primary" href="https://github.com/angelisaidchl-lgtm/pixeldev-mx" target="_blank" rel="noopener">Visitar GitHub ↗</a></div><div class="community-symbol">P<span>✦</span></div></div>
+      <div class="support-row reveal"><div><span class="support-icon">♡</span><div><strong>¿Te gusta PixelDev MX?</strong><p>El apoyo es opcional. Gracias por formar parte de la comunidad.</p></div></div><a class="button secondary" id="donateButton" href="#donar">Apoyar el proyecto ♡</a></div>
+      <p class="donation-note" id="donationNote">Donaciones opcionales. El enlace de apoyo se habilitará cuando el creador configure un método seguro.</p>
+    </section>
+  </main>
+
+  <footer class="footer"><a class="brand" href="#inicio"><span class="brand-mark">P<span>✦</span></span><span>PIXELDEV <b>MX</b></span></a><p>Hecho con creatividad desde México. <span>© <span id="year"></span> PixelDev MX</span></p><a href="#inicio">Volver arriba ↑</a></footer>
+  <div class="toast" id="toast" role="status"></div>
+  <script src="script.js"></script>
+</body>
+</html>
