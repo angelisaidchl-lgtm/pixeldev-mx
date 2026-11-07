@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#10091f">
+<meta name="description" content="PixelDev MX: scripts Luau, recursos y tutoriales para crear juegos desde móvil.">
+<title>PixelDev MX — Crea desde tu móvil</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#inicio"><span class="crown">♛</span><span>PIXELDEV <b>MX</b></span></a>
+  <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+  <nav id="navMenu">
+    <a href="#scripts">Scripts</a><a href="#tutoriales">Tutoriales</a><a href="#donar">Apoyar</a><a href="#acerca">Acerca</a>
+    <a class="nav-admin" href="https://github.com/angelisaidchl-lgtm/pixeldev-mx" target="_blank" rel="noopener">Panel creador ↗</a>
+  </nav>
+</header>
+<main>
+<section class="hero" id="inicio">
+  <div class="hero-grid"></div><div class="hero-content">
+    <div class="eyebrow"><span class="live-dot"></span> COMUNIDAD DE DESARROLLO MÓVIL</div>
+    <h1>Tu imaginación.<br><span>Tu código.</span> Tu mundo.</h1>
+    <p>Scripts, recursos y tutoriales para crear experiencias en Roblox desde tu celular. Aprende, experimenta y construye a tu manera.</p>
+    <div class="hero-actions"><a class="btn primary" href="#scripts">Explorar scripts <span>↓</span></a><a class="btn ghost" href="#tutoriales">Ver tutoriales</a></div>
+    <div class="hero-note"><span>✦</span> Hecho para creadores que desarrollan desde móvil.</div>
+  </div>
+  <div class="hero-art" aria-hidden="true"><div class="orbit orbit1"></div><div class="orbit orbit2"></div><div class="cube">PD<br><small>MX</small></div><div class="code-card"><span>● ● ●</span><pre>local function Crear()
+  print("¡Vamos!")
+end
+
+Crear()</pre><b>LUＡU</b></div><div class="floating-chip">✦ CREATE</div></div>
+</section>
+<section class="stats">
+ <div><strong>01</strong><span>Biblioteca de scripts</span></div><div><strong>02</strong><span>Tutoriales en video</span></div><div><strong>∞</strong><span>Ideas por construir</span></div>
+</section>
+<section class="section" id="scripts">
+ <div class="section-head"><div><span class="section-tag">RECURSOS</span><h2>Biblioteca de <em>scripts</em></h2><p>Los archivos Lua/Luau publicados en el repositorio se detectan automáticamente.</p></div><span class="section-icon">⌘</span></div>
+ <div class="toolbar"><label class="search"><span>⌕</span><input id="scriptSearch" type="search" placeholder="Buscar scripts por nombre…"></label><div class="filters" id="scriptFilters"><button class="filter active" data-filter="all">Todos</button><button class="filter" data-filter="lua">Lua</button><button class="filter" data-filter="luau">Luau</button></div></div>
+ <div id="scriptStatus" class="status">Conectando con la biblioteca…</div><div class="resource-grid" id="scriptGrid"></div>
+ <div class="section-foot"><span>↻ La biblioteca se consulta al abrir la página.</span><a href="https://github.com/angelisaidchl-lgtm/pixeldev-mx" target="_blank" rel="noopener">Ver repositorio completo ↗</a></div>
+</section>
+<section class="tutorial-section section" id="tutoriales">
+ <div class="section-head"><div><span class="section-tag">APRENDE Y CREA</span><h2>Zona de <em>tutoriales</em></h2><p>Videos con título, descripción y enlace. La lista se actualiza desde el archivo de contenido del repositorio.</p></div><span class="section-icon">▶</span></div>
+ <div class="tutorial-note"><span>▶</span><div><b>Aprende a tu ritmo</b><p>Selecciona un tutorial para abrir el video en YouTube u otra plataforma.</p></div></div>
+ <div id="tutorialStatus" class="status">Cargando tutoriales…</div><div class="tutorial-grid" id="tutorialGrid"></div>
+ <div class="section-foot"><span>¿Eres el creador? Agrega o edita videos en <code>tutoriales.json</code>.</span><a href="https://github.com/angelisaidchl-lgtm/pixeldev-mx" target="_blank" rel="noopener">Administrar videos ↗</a></div>
+</section>
+<section class="donate-section section" id="donar">
+ <div class="donate-card"><div class="donate-orb">♡</div><div class="donate-copy"><span class="section-tag">APOYO VOLUNTARIO</span><h2>¿Te gusta <em>PixelDev MX</em>?</h2><p>Si estos recursos te ayudan, puedes apoyar el proyecto con una donación voluntaria. No es obligatoria: la comunidad y tus ganas de crear son lo más importante.</p><small>La donación es opcional y se realiza mediante una plataforma externa.</small></div><a class="btn primary donate-btn" id="donateLink" href="#donar">Apoyar el proyecto <span>♡</span></a></div>
+ <p class="donate-config">Para activar el botón, el creador debe colocar su enlace de donación en <code>script.js</code> (por ejemplo, una página de Ko-fi o Buy Me a Coffee).</p>
+</section>
+<section class="section about" id="acerca"><div class="about-box"><span class="section-tag">SOBRE EL PROYECTO</span><h2>Creado por <em>creadores,</em><br>para creadores.</h2><p>PixelDev MX comparte herramientas y conocimientos para quienes desarrollan juegos desde el celular. Aquí puedes aprender, descargar recursos y seguir construyendo tus ideas.</p><div class="about-bottom"><span>PIXELDEV MX <b>♛</b></span><span>CREA · APRENDE · DESARROLLA</span></div></div></section>
+</main>
+<footer><a class="brand small" href="#inicio"><span class="crown">♛</span> PIXELDEV <b>MX</b></a><span>© <span id="year"></span> PixelDev MX · Hecho con creatividad.</span><a href="#inicio">Volver arriba ↑</a></footer>
+<script src="script.js"></script>
+</body></html>
