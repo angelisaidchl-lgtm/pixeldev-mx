@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080711">
+  <meta name="description" content="PixelDev MX: recursos, scripts, tutoriales y comunidad de Roblox Studio Lite.">
+  <title>PixelDev MX — Crea sin límites</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-a"></div><div class="ambient ambient-b"></div>
+  <header class="topbar">
+    <a class="brand" href="#inicio" aria-label="PixelDev MX"><span class="brand-icon">P<span>✦</span></span><span>PIXELDEV <b>MX</b></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">☰</button>
+    <nav id="nav">
+      <a href="#recursos">Recursos</a><a href="#tutoriales">Tutoriales</a><a href="#comunidad">Comunidad</a><a href="#normas">Normas</a>
+      <a class="nav-admin" href="https://github.com/angelisaidchl-lgtm/pixeldev-mx" target="_blank" rel="noopener">Panel creador ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- PORTADA / INTRO -->
+    <section class="welcome" id="inicio">
+      <div class="welcome-copy">
+        <div class="pill"><span class="pulse"></span> UN UNIVERSO PARA CREADORES</div>
+        <p class="overline">ROBLOX STUDIO LITE · LUAU · CREATIVIDAD</p>
+        <h1>Tu imaginación.<br><span class="shine">Tu próximo juego.</span></h1>
+        <p class="welcome-desc">Descubre recursos, aprende nuevas técnicas y comparte lo que creas. Todo desde una comunidad que impulsa a los desarrolladores.</p>
+        <button class="start-button" id="startButton">Comenzar <span>↓</span></button>
+        <div class="welcome-note"><span>✦</span> Aprende creando. Mejora compartiendo.</div>
+      </div>
+      <div class="welcome-art" aria-hidden="true">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="core"><div class="core-logo">P<span>✦</span></div><div class="core-caption">PIXELDEV<br><b>CREATOR HUB</b></div></div>
+        <div class="floating-chip chip-one">⌘ &nbsp; LUAU SCRIPT</div><div class="floating-chip chip-two">✧ &nbsp; STUDIO LITE</div><div class="floating-chip chip-three">◈ &nbsp; COMMUNITY</div>
+        <div class="spark spark-one">✦</div><div class="spark spark-two">✧</div>
+      </div>
+      <div class="scroll-cue">DESLIZA PARA EXPLORAR <span>⌄</span></div>
+    </section>
+
+    <section class="quick-strip">
+      <div><b>01</b><span>Explora recursos</span></div><div><b>02</b><span>Aprende con tutoriales</span></div><div><b>03</b><span>Comparte tu creación</span></div>
+    </section>
+
+    <section class="section" id="recursos">
+      <div class="section-head"><div><span class="eyebrow">TU CAJA DE HERRAMIENTAS</span><h2>Recursos para <span class="shine">crear.</span></h2><p>Scripts Lua y Luau publicados en el repositorio.</p></div><span class="section-index">01 / BIBLIOTECA</span></div>
+      <div class="search-row"><input id="scriptSearch" type="search" placeholder="⌕ Buscar un script..." aria-label="Buscar scripts"><span class="live-label"><i></i> Catálogo GitHub</span></div>
+      <div id="scriptsGrid" class="resource-grid"><div class="loading-card">Preparando biblioteca…</div></div><p id="scriptStatus" class="muted tiny">Conectando con GitHub…</p>
+    </section>
+
+    <section class="section" id="tutoriales">
+      <div class="section-head"><div><span class="eyebrow">APRENDE A TU RITMO</span><h2>Ideas que se <span class="shine">convierten en juegos.</span></h2><p>Tutoriales en video con título, descripción y enlace.</p></div><span class="section-index">02 / TUTORIAL</span></div>
+      <input id="tutorialSearch" class="search-wide" type="search" placeholder="⌕ Buscar tutorial..." aria-label="Buscar tutoriales">
+      <div id="tutorialGrid" class="tutorial-grid"><div class="loading-card">Cargando tutoriales…</div></div><p id="tutorialEmpty" class="muted" hidden>No encontramos tutoriales con esa búsqueda.</p>
+    </section>
+
+    <section class="section community-section" id="comunidad">
+      <div class="section-head"><div><span class="eyebrow">CREA EN COMUNIDAD</span><h2>Tu talento también <span class="shine">tiene lugar.</span></h2><p>Propón scripts, modelos, herramientas o tutoriales para que otros creadores los descubran.</p></div><span class="section-index">03 / COMUNIDAD</span></div>
+      <div class="community-cards">
+        <article class="community-card featured"><div class="card-symbol">↗</div><span class="eyebrow">ENVÍA TU PROPUESTA</span><h3>Comparte tu creación</h3><p>Envía el enlace y los detalles de tu recurso. La propuesta será revisada antes de publicarse.</p><a class="button-primary" href="https://github.com/angelisaidchl-lgtm/pixeldev-mx/issues/new?template=enviar-recurso.yml" target="_blank" rel="noopener">Proponer recurso ↗</a><small>Se abrirá GitHub. Es necesario iniciar sesión.</small></article>
+        <article class="community-card"><div class="card-symbol">✦</div><span class="eyebrow">CREADORES CON CRÉDITO</span><h3>Compartir con respeto</h3><p>Los recursos aprobados pueden incluir el alias del autor y el enlace a su fuente original.</p><ul><li>Revisión manual</li><li>Créditos al creador</li><li>Contenido propio o autorizado</li></ul></article>
+      </div>
+      <div class="notice"><b>ⓘ Importante</b><p>Los envíos no se publican automáticamente. El administrador revisa las propuestas. No incluyas contraseñas, tokens ni datos personales.</p></div>
+    </section>
+
+    <section class="section" id="normas">
+      <div class="section-head"><div><span class="eyebrow">UN ESPACIO SEGURO Y CREATIVO</span><h2>Normas de <span class="shine">PixelDev MX.</span></h2><p>Antes de compartir recursos, revisa estas reglas.</p></div><span class="section-index">04 / NORMAS</span></div>
+      <div class="rules-layout">
+        <div class="rules-intro"><div class="rules-emblem">✦</div><h3>Crear también es respetar.</h3><p>Queremos una comunidad útil, amable y responsable con el trabajo de cada creador.</p></div>
+        <div class="rules-list">
+          <details><summary>1. Derechos y permisos</summary><p>Comparte recursos propios o que tengas permiso/licencia para distribuir. Dar crédito no reemplaza el permiso. Si no estás seguro, comparte el enlace original en vez de volver a subir el archivo.</p></details>
+          <details><summary>2. Contenido permitido</summary><p>No envíes código malicioso, archivos engañosos, contenido ilegal ni material que infrinja derechos.</p></details>
+          <details><summary>3. Privacidad</summary><p>No publiques contraseñas, tokens, datos personales, direcciones ni información privada de otras personas. Usa un alias público.</p></details>
+          <details><summary>4. Revisión y retirada</summary><p>PixelDev MX puede rechazar o retirar recursos que infrinjan estas reglas. El autor conserva los derechos de su creación.</p></details>
+          <details><summary>5. Responsabilidad</summary><p>Los recursos de terceros son responsabilidad de sus autores. Revisa el código antes de ejecutarlo en Roblox Studio.</p></details>
+        </div>
+      </div>
+      <p class="legal-note">PixelDev MX es un proyecto independiente y no está afiliado ni respaldado por Roblox Corporation. Roblox y sus marcas pertenecen a sus respectivos titulares.</p>
+    </section>
+
+    <section class="final-cta"><div class="final-cta-inner"><span class="eyebrow">EL SIGUIENTE PASO ES TUYO</span><h2>¿Listo para <span class="shine">crear?</span></h2><p>Explora, aprende y transforma tus ideas en experiencias.</p><button class="start-button" id="finalStart">Volver a explorar ↑</button></div></section>
+  </main>
+
+  <footer><a class="brand" href="#inicio"><span class="brand-icon">P<span>✦</span></span><span>PIXELDEV <b>MX</b></span></a><p>Hecho para creadores · © <span id="year"></span></p><a href="#inicio">Inicio ↑</a></footer>
+
+  <!-- MODAL DE TÉRMINOS: la aceptación se guarda solo en este navegador -->
+  <div class="modal-backdrop" id="termsModal" role="dialog" aria-modal="true" aria-labelledby="termsTitle">
+    <div class="terms-modal">
+      <div class="modal-mark">P✦</div><span class="eyebrow">BIENVENIDO A PIXELDEV MX</span><h2 id="termsTitle">Antes de comenzar</h2>
+      <p>Queremos que este espacio sea creativo, respetuoso y seguro. Lee y acepta las condiciones para continuar.</p>
+      <div class="terms-scroll">
+        <h3>Condiciones de uso</h3>
+        <p>PixelDev MX ofrece enlaces y recursos comunitarios. No garantizamos que los recursos de terceros funcionen o estén libres de errores. Revisa cualquier script antes de ejecutarlo.</p>
+        <h3>Derechos de autor</h3>
+        <p>Solo comparte material propio o que tengas autorización/licencia para distribuir. El crédito no sustituye el permiso. Los autores conservan sus derechos.</p>
+        <h3>Contenido y moderación</h3>
+        <p>No publiques material ilegal, dañino, engañoso, infractor o información privada. Las propuestas se revisan y pueden rechazarse o retirarse.</p>
+        <h3>Privacidad</h3>
+        <p>No envíes contraseñas, tokens, datos bancarios ni datos personales. Los envíos a GitHub se rigen también por las condiciones y políticas de GitHub.</p>
+        <h3>Independencia</h3>
+        <p>PixelDev MX es independiente y no está afiliado a Roblox Corporation. Roblox y sus marcas pertenecen a sus titulares.</p>
+        <p class="terms-disclaimer">Estas condiciones son una guía comunitaria básica, no asesoría legal. Si el sitio crece o recibe pagos/datos, conviene revisarlas con un adulto responsable y asesoría adecuada.</p>
+      </div>
+      <label class="accept-line"><input type="checkbox" id="acceptTerms"><span>He leído y acepto las condiciones de uso y las normas de la comunidad.</span></label>
+      <button class="start-button full" id="enterSite" disabled>Entrar a PixelDev MX <span>→</span></button>
+      <button class="text-button" id="declineTerms">Ahora no</button>
+      <small class="modal-small">Tu elección se guarda en este navegador. No se recopila una firma ni tu identidad.</small>
+    </div>
+  </div>
+  <div class="toast" id="toast"></div>
+  <script src="script.js"></script>
+</body>
+</html>
