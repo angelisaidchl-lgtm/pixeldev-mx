@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PixelDev MX · Recursos y tutoriales para crear en Roblox</title>
+<meta name="description" content="Comunidad educativa y biblioteca de recursos en español para quienes crean juegos de Roblox desde Android y Roblox Studio Lite.">
+<meta name="theme-color" content="#07040f">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%2307040f'/%3E%3Crect x='8' y='8' width='7' height='7' fill='%23a855f7'/%3E%3Crect x='17' y='17' width='7' height='7' fill='%23c4b5fd'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#contenido">Saltar al contenido</a>
+
+<header class="top">
+  <div class="wrap bar">
+    <a class="logo" href="#inicio" aria-label="PixelDev MX, inicio"><span class="logo-px" aria-hidden="true"></span>PixelDev<b>MX</b></a>
+    <button id="menu-btn" class="menu-btn" aria-expanded="false" aria-controls="nav" aria-label="Abrir menú"><span></span><span></span><span></span></button>
+    <nav id="nav" class="nav" aria-label="Principal">
+      <a href="#recursos">Recursos</a>
+      <a href="#tutoriales">Tutoriales</a>
+      <a href="#retos">Retos</a>
+      <a href="#comunidad">Comunidad</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#novedades">Novedades</a>
+      <a href="#normas">Normas</a>
+    </nav>
+  </div>
+</header>
+
+<main id="contenido">
+
+<section id="inicio" class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <p class="tag">Hecho en español, desde Android</p>
+      <h1>Crea tu juego de Roblox<br>sin necesitar una computadora.</h1>
+      <p class="lead">PixelDev MX es una biblioteca abierta de recursos, tutoriales y retos para quienes empiezan a programar y diseñar con Roblox Studio Lite.</p>
+      <div class="actions">
+        <a class="btn primary" href="#recursos">Explorar recursos</a>
+        <a class="btn" href="#tutoriales">Ver tutoriales</a>
+      </div>
+    </div>
+    <div class="pixgrid" id="pixgrid" aria-hidden="true"></div>
+  </div>
+</section>
+
+<section id="recursos" class="sec">
+  <div class="wrap">
+    <h2>Recursos</h2>
+    <p class="sub">Archivos publicados en el repositorio de PixelDev MX. Se cargan en vivo desde GitHub.</p>
+    <div class="tools">
+      <label for="buscar" class="sr">Buscar recursos</label>
+      <input id="buscar" type="search" placeholder="Buscar por nombre…" autocomplete="off" disabled>
+    </div>
+    <div id="rec-estado" class="estado" role="status" aria-live="polite">Cargando recursos…</div>
+    <div id="rec-lista" class="cards"></div>
+  </div>
+</section>
+
+<section id="tutoriales" class="sec alt">
+  <div class="wrap">
+    <h2>Tutoriales</h2>
+    <p class="sub">Guías para aprender paso a paso. Se leen desde el archivo <code>tutoriales.json</code>.</p>
+    <div id="tut-estado" class="estado" role="status" aria-live="polite">Cargando tutoriales…</div>
+    <div id="tut-lista" class="cards"></div>
+  </div>
+</section>
+
+<section id="retos" class="sec">
+  <div class="wrap">
+    <h2>Retos</h2>
+    <p class="sub">Cuatro ideas para practicar. Marca cada una cuando la termines.</p>
+    <div class="progress-box">
+      <div class="progress-top"><span id="reto-texto">0 de 4 completados</span><span id="reto-pct">0%</span></div>
+      <div class="bar-bg" role="progressbar" aria-label="Progreso de retos" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="reto-bar"><div class="bar-fill" id="reto-fill"></div></div>
+    </div>
+    <ul id="reto-lista" class="retos"></ul>
+    <p class="nota">Tu progreso se guarda solo en este navegador de este dispositivo. No se sincroniza con otros dispositivos ni con una cuenta, y se pierde si borras los datos del navegador.</p>
+  </div>
+</section>
+
+<section id="comunidad" class="sec alt">
+  <div class="wrap two">
+    <div>
+      <h2>Comunidad</h2>
+      <p class="sub">¿Tienes un recurso que pueda ayudar a otras personas? Propónlo creando un <em>Issue</em> en GitHub (necesitas una cuenta gratuita).</p>
+      <p>Todas las propuestas se revisan antes de publicarse. Desde esta web no se pueden subir archivos directamente: la propuesta se envía por GitHub y, si se aprueba, se agrega al repositorio.</p>
+      <a class="btn primary" href="https://github.com/angelisaidchl-lgtm/pixeldev-mx/issues/new" target="_blank" rel="noopener noreferrer">Proponer un recurso en GitHub</a>
+    </div>
+    <div class="card">
+      <h3>Qué incluir en tu propuesta</h3>
+      <ul class="ul">
+        <li>Nombre y descripción corta del recurso.</li>
+        <li>Para qué sirve y en qué parte de Roblox Studio se usa.</li>
+        <li>Confirma que es tu creación o que tienes permiso para compartirla.</li>
+        <li>Un enlace al recurso, sin datos personales.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="proyectos" class="sec">
+  <div class="wrap">
+    <h2>Proyectos de la comunidad</h2>
+    <p class="sub">Este espacio está listo para mostrar proyectos cuando la comunidad los proponga y se revisen.</p>
+    <div class="card vacio">
+      <h3>Aún no hay proyectos publicados</h3>
+      <p>Cuando se aprueben propuestas, aparecerán aquí con su autoría real. Puedes ser la primera persona en proponer uno.</p>
+      <a class="btn" href="#comunidad">Ir a Comunidad</a>
+    </div>
+  </div>
+</section>
+
+<section id="novedades" class="sec alt">
+  <div class="wrap">
+    <h2>Novedades</h2>
+    <div id="nov-estado" class="estado" role="status" aria-live="polite">Buscando novedades…</div>
+    <div id="nov-lista" class="cards"></div>
+  </div>
+</section>
+
+<section id="redes" class="sec">
+  <div class="wrap">
+    <h2>Redes sociales</h2>
+    <p class="sub">Los enlaces marcados con corchetes todavía no se han agregado.</p>
+    <div class="cards">
+      <div class="card"><h3>TikTok</h3><p class="ph">[AGREGAR ENLACE DE TIKTOK]</p></div>
+      <div class="card"><h3>YouTube</h3><p class="ph">[AGREGAR ENLACE DE YOUTUBE]</p></div>
+      <div class="card"><h3>Instagram</h3><p class="ph">[AGREGAR ENLACE DE INSTAGRAM]</p></div>
+      <div class="card"><h3>GitHub</h3><p>Código, recursos y propuestas.</p><a class="btn small" href="https://github.com/angelisaidchl-lgtm/pixeldev-mx" target="_blank" rel="noopener noreferrer">Abrir repositorio</a></div>
+    </div>
+  </div>
+</section>
+
+<section id="normas" class="sec alt">
+  <div class="wrap">
+    <h2>Normas de la comunidad</h2>
+    <div class="cards">
+      <div class="card"><h3>Respeto</h3><p>Trata bien a las demás personas. No se permite acoso, discriminación ni lenguaje ofensivo.</p></div>
+      <div class="card"><h3>Contenido propio</h3><p>Comparte solo lo que creaste o lo que tienes permiso de compartir. Respeta licencias y autoría.</p></div>
+      <div class="card"><h3>Seguridad</h3><p>No propongas scripts maliciosos, enlaces engañosos ni archivos que puedan dañar cuentas o dispositivos.</p></div>
+      <div class="card"><h3>Revisión</h3><p>Cada propuesta se revisa antes de publicarse. Puede rechazarse o pedirse que se corrija.</p></div>
+      <div class="card"><h3>Datos personales</h3><p>No publiques contraseñas, correos, teléfonos ni datos de otras personas, y menos de menores de edad.</p></div>
+    </div>
+    <p><button id="ver-terminos" class="btn" type="button">Volver a leer los términos</button></p>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-grid">
+    <div>
+      <p class="logo"><span class="logo-px" aria-hidden="true"></span>PixelDev<b>MX</b></p>
+      <p class="small">PixelDev MX es un proyecto independiente y no está afiliado oficialmente a Roblox Corporation. Roblox y Roblox Studio son marcas de sus respectivos dueños.</p>
+    </div>
+    <nav aria-label="Pie de página" class="foot-nav">
+      <a href="#recursos">Recursos</a>
+      <a href="#tutoriales">Tutoriales</a>
+      <a href="#retos">Retos</a>
+      <a href="#comunidad">Comunidad</a>
+      <a href="#normas">Normas</a>
+      <a href="https://github.com/angelisaidchl-lgtm/pixeldev-mx" target="_blank" rel="noopener noreferrer">GitHub</a>
+    </nav>
+  </div>
+</footer>
+
+<dialog id="terminos" aria-labelledby="t-titulo">
+  <h2 id="t-titulo">Antes de continuar</h2>
+  <p>Para usar PixelDev MX, acepta estas normas:</p>
+  <ul class="ul">
+    <li>Trata a las demás personas con respeto.</li>
+    <li>Comparte solo contenido propio o con permiso.</li>
+    <li>No propongas nada inseguro ni malicioso.</li>
+    <li>Las propuestas se revisan antes de publicarse.</li>
+    <li>No compartas datos personales.</li>
+    <li>PixelDev MX es independiente y no está afiliado oficialmente a Roblox Corporation.</li>
+  </ul>
+  <p class="small">Tu aceptación se guarda solo en este navegador.</p>
+  <div class="actions">
+    <button id="aceptar" class="btn primary" type="button">Acepto las normas</button>
+    <button id="cerrar-t" class="btn" type="button" hidden>Cerrar</button>
+  </div>
+</dialog>
+
+<noscript><p class="noscript">Esta página necesita JavaScript para cargar recursos, tutoriales y retos.</p></noscript>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+PIXELDEV MX — Guía rápida (todo desde Android)
+==============================================
+
+Contenido del paquete
+- index.html       Página principal
+- style.css        Diseño
+- script.js        Funciones (recursos, tutoriales, retos, términos)
+- tutoriales.json  Lista de tutoriales (ahí agregas los tuyos)
+- ejemplo.lua      Script de ejemplo para Roblox Studio
+- LEEME.txt        Este archivo
+
+CÓMO DESCARGAR Y DESCOMPRIMIR
+1. Descarga el archivo pixeldev-mx.zip.
+2. Abre la app "Archivos" (Files by Google) y entra en "Descargas".
+3. Toca el ZIP y elige "Extraer". Se creará la carpeta pixeldev-mx.
+
+CÓMO SUBIRLO A GITHUB (navegador de tu celular)
+1. Abre https://github.com/angelisaidchl-lgtm/pixeldev-mx e inicia sesión.
+   Si Chrome muestra la versión móvil, abre el menú ⋮ y activa "Sitio para computadora".
+2. Toca "Add file" > "Upload files".
+3. Toca "choose your files" y entra en la carpeta pixeldev-mx extraída.
+   Selecciona los 6 archivos (mantén presionado uno y marca los demás).
+   IMPORTANTE: sube los ARCHIVOS, no la carpeta. Deben quedar en la raíz del repositorio.
+4. Espera a que terminen de cargar y toca "Commit changes".
+
+CÓMO ACTIVAR GITHUB PAGES (solo la primera vez)
+1. En el repositorio entra en "Settings" > "Pages".
+2. En "Source" elige "Deploy from a branch".
+3. En "Branch" elige "main" y la carpeta "/ (root)". Toca "Save".
+4. Espera 1 a 3 minutos. Tu página estará en:
+   https://angelisaidchl-lgtm.github.io/pixeldev-mx/
+
+CÓMO AGREGAR TUTORIALES
+En GitHub abre tutoriales.json, toca el lápiz (Edit) y agrega objetos con titulo, descripcion y url.
+Separa cada objeto con una coma. Ejemplo:
+  { "titulo": "Mi tutorial", "descripcion": "Qué se aprende.", "url": "https://..." }
+
+CÓMO AGREGAR RECURSOS
+Todo archivo que subas a la raíz del repositorio (además de los del sitio) aparecerá en la sección Recursos.
+
+REDES SOCIALES
+En index.html busca [AGREGAR ENLACE DE TIKTOK], [AGREGAR ENLACE DE YOUTUBE] y [AGREGAR ENLACE DE INSTAGRAM] y reemplázalos por tus enlaces reales.
+
+NOTAS
+- El progreso de los retos y la aceptación de términos se guardan solo en el navegador de cada persona.
+- Si GitHub limita las consultas, la sección Recursos mostrará un aviso; espera unos minutos.
+- PixelDev MX es independiente y no está afiliado oficialmente a Roblox Corporation.

@@ -1,0 +1,9 @@
+{
+  "tutoriales": [
+    {
+      "titulo": "Documentación oficial de Roblox Creator (ejemplo)",
+      "descripcion": "Ejemplo del formato del archivo. Reemplázalo por tus propios tutoriales o agrega más objetos a la lista.",
+      "url": "https://create.roblox.com/docs/es"
+    }
+  ]
+}
