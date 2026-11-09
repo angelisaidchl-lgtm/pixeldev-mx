@@ -1,0 +1,40 @@
+{
+  "tutoriales": [
+    {
+      "titulo": "Evita estos 3 errores al crear tu primer juego",
+      "descripcion": "Entiende estas 3 cosas y los resultados pueden cambiar",
+      "url": "https://vt.tiktok.com/ZSpBuxNNQ/",
+      "destacado": false,
+      "etiquetas": [
+        "Primer tuto"
+      ]
+    },
+    {
+      "titulo": "Aprende a crear modelos con IA desde celular",
+      "descripcion": "Deja de batallar creando modelos a mano y mejor empieza a crearlos con IA",
+      "url": "https://vt.tiktok.com/ZSpBuQRqa/",
+      "destacado": false,
+      "etiquetas": [
+        "Segundo tuto"
+      ]
+    },
+    {
+      "titulo": "Como pasar un modelo de script a físico permanente",
+      "descripcion": "Pasa tus modelos de script generados con IA a un modelo físico permanente",
+      "url": "https://vt.tiktok.com/ZSpS3vkNH/",
+      "destacado": false,
+      "etiquetas": [
+        "Tercer tuto"
+      ]
+    },
+    {
+      "titulo": "Cómo pegar un script en Roblox Studio Lite",
+      "descripcion": "Aprende a insertar un Script o LocalScript, borrar el código predeterminado y pegar tu código correctamente desde Android.",
+      "url": "https://vt.tiktok.com/ZSpD15udL/",
+      "destacado": false,
+      "etiquetas": [
+        "Cuarto tuto"
+      ]
+    }
+  ]
+}
