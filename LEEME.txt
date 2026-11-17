@@ -1,0 +1,27 @@
+PIXELDEV MX — REDISEÑO
+======================
+
+Archivos incluidos
+- index.html: estructura de la página.
+- style.css: identidad visual y diseño adaptable a celular.
+- script.js: menú, buscador, recursos de GitHub, tutoriales, retos y propuestas.
+- tutoriales.json: contenido de tutoriales.
+- ejemplo.lua: script de ejemplo para Roblox.
+
+CÓMO ACTUALIZAR TU PÁGINA DESDE ANDROID
+1. Descarga y extrae pixeldev-mx-redisenado.zip.
+2. Abre tu repositorio: https://github.com/angelisaidchl-lgtm/pixeldev-mx
+3. En GitHub, entra a la carpeta principal (raíz) del repositorio.
+4. Sube los archivos de esta carpeta a la raíz. Reemplaza index.html, style.css, script.js y tutoriales.json cuando GitHub lo pregunte.
+5. Conserva cualquier recurso tuyo que ya esté en el repositorio y que no venga en este ZIP. No borres carpetas ni archivos personales que quieras mantener.
+6. Confirma los cambios con Commit changes.
+7. Espera a que GitHub Pages publique la actualización y recarga el sitio. Si ves la versión anterior, prueba recargar sin caché o abrir en una pestaña privada.
+
+IMPORTANTE
+- Los recursos se leen desde los archivos públicos de la raíz del repositorio mediante la API de GitHub.
+- Los tutoriales se leen de tutoriales.json.
+- El progreso de retos se guarda localmente en el navegador del visitante; no hay cuentas ni sincronización.
+- El formulario de comunidad NO envía nada automáticamente: prepara un borrador de GitHub Issue que el usuario debe revisar y enviar.
+- El sitio usa Google Fonts (Manrope y DM Mono). Si no cargan, se usan fuentes de respaldo.
+- No se incluyen enlaces ficticios de YouTube o Instagram. Solo aparecen TikTok y GitHub, cuyos enlaces ya estaban configurados.
+- PixelDev MX es independiente y no está afiliado oficialmente a Roblox Corporation.

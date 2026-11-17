@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101b1a">
+  <meta name="description" content="PixelDev MX: tutoriales, recursos y retos para aprender a crear experiencias de Roblox desde el celular.">
+  <title>PixelDev MX — Crea algo increíble en Roblox</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='10' fill='%23101b1a'/%3E%3Cpath d='M9 9h10v10H9zm12 12h10v10H21z' fill='%23c6f277'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#inicio" aria-label="PixelDev MX, inicio">
+        <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+        <span>pixeldev<span class="brand-mx">.mx</span></span>
+      </a>
+      <button class="menu-toggle" id="menu-btn" type="button" aria-expanded="false" aria-controls="main-nav">
+        <span class="menu-lines" aria-hidden="true"></span><span class="sr-only">Abrir menú</span>
+      </button>
+      <nav class="main-nav" id="main-nav" aria-label="Navegación principal">
+        <a href="#tutoriales">Tutoriales</a>
+        <a href="#recursos">Recursos</a>
+        <a href="#retos">Retos</a>
+        <a href="#comunidad">Comunidad</a>
+      </nav>
+      <a class="header-cta" href="https://www.tiktok.com/@pixeldev_mx" target="_blank" rel="noopener noreferrer">Ver TikTok <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section class="hero" id="inicio">
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> APRENDE · CONSTRUYE · EXPERIMENTA</p>
+          <h1>Tu próxima gran idea <span>empieza aquí.</span></h1>
+          <p class="hero-lead">Aprende a crear en Roblox desde tu celular. Tutoriales claros, recursos útiles y pequeños retos para pasar de jugar a construir.</p>
+          <div class="hero-actions">
+            <a class="button button-lime" href="#tutoriales">Quiero aprender <span aria-hidden="true">→</span></a>
+            <a class="button button-ghost" href="#recursos">Explorar recursos</a>
+          </div>
+          <div class="hero-note"><span class="note-spark">✳</span> Hecho para creadores que empiezan desde cero.</div>
+        </div>
+
+        <div class="hero-art" aria-label="Ilustración de código y bloques de construcción">
+          <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div>
+          <div class="code-window">
+            <div class="window-top"><span></span><span></span><span></span><small>mi_primer_juego.lua</small></div>
+            <div class="code-lines" aria-hidden="true">
+              <p><b>01</b> <span class="code-purple">local</span> mundo = <span class="code-yellow">"Roblox"</span></p>
+              <p><b>02</b> <span class="code-purple">local</span> idea = <span class="code-green">"Tu creatividad"</span></p>
+              <p><b>03</b></p>
+              <p><b>04</b> <span class="code-blue">print</span>(<span class="code-yellow">"¡A construir!"</span>)</p>
+              <p><b>05</b> <span class="code-muted">-- El primer paso es intentarlo</span></p>
+            </div>
+            <div class="window-status"><span></span> LISTO PARA CREAR <i>●</i></div>
+          </div>
+          <div class="block-scene">
+            <div class="block-shadow"></div>
+            <div class="block-cube cube-back"><i></i></div>
+            <div class="block-cube cube-front"><i></i></div>
+            <div class="block-small"></div>
+            <span class="scene-cross cross-a">+</span><span class="scene-cross cross-b">✳</span>
+          </div>
+          <div class="art-label"><span>01 / IDEA</span><span>BUILD YOUR WORLD</span></div>
+        </div>
+      </div>
+      <div class="hero-bottom"><span>PIXELDEV MX</span><span>UN ESPACIO PARA APRENDER HACIENDO</span><span>DESDE TU CELULAR ↘</span></div>
+    </section>
+
+    <section class="start-section section-wrap" aria-labelledby="start-title">
+      <div class="section-heading compact-heading">
+        <div><p class="eyebrow eyebrow-dark">NO NECESITAS SABERLO TODO</p><h2 id="start-title">Empieza por <em>un paso.</em></h2></div>
+        <p>Elige qué quieres hacer hoy. Lo importante es comenzar y probar.</p>
+      </div>
+      <div class="start-grid">
+        <a class="start-card start-card-dark" href="#tutoriales"><span class="card-index">01 / APRENDER</span><span class="start-icon icon-play">▶</span><h3>Entiende cómo funciona</h3><p>Guías sencillas para aprender conceptos y técnicas de Roblox.</p><span class="card-arrow">Explorar tutoriales ↗</span></a>
+        <a class="start-card start-card-lime" href="#recursos"><span class="card-index">02 / DESCARGAR</span><span class="start-icon icon-code">{ }</span><h3>Usa algo y modifícalo</h3><p>Scripts y archivos que puedes estudiar, probar y adaptar.</p><span class="card-arrow">Ver recursos ↗</span></a>
+        <a class="start-card start-card-white" href="#retos"><span class="card-index">03 / PRACTICAR</span><span class="start-icon icon-target">◎</span><h3>Construye tu primera idea</h3><p>Pequeños desafíos para convertir lo aprendido en práctica.</p><span class="card-arrow">Comenzar un reto ↗</span></a>
+      </div>
+    </section>
+
+    <section class="tutorial-section" id="tutoriales">
+      <div class="section-wrap">
+        <div class="section-heading">
+          <div><p class="eyebrow eyebrow-dark">APRENDE A TU RITMO</p><h2>Menos vueltas.<br><em>Más creación.</em></h2></div>
+          <p>Tutoriales y explicaciones para entender el proceso, no solo copiar pasos. Cada avance cuenta.</p>
+        </div>
+        <div class="content-toolbar"><span class="toolbar-label">BIBLIOTECA DE TUTORIALES</span><span class="toolbar-count" id="tut-count">Cargando…</span></div>
+        <div class="tutorial-grid" id="tut-lista" aria-live="polite">
+          <div class="loading-card">Preparando tutoriales<span class="loading-dots">...</span></div>
+        </div>
+        <p class="section-footnote">Los tutoriales se actualizan desde el archivo <code>tutoriales.json</code> del repositorio.</p>
+      </div>
+    </section>
+
+    <section class="resource-section" id="recursos">
+      <div class="section-wrap">
+        <div class="section-heading resource-heading">
+          <div><p class="eyebrow">TU CAJA DE HERRAMIENTAS</p><h2>Recursos para<br><em>hacerlo real.</em></h2></div>
+          <p>Encuentra archivos del repositorio, revisa su contenido y descarga lo que te sirva para tu proyecto.</p>
+        </div>
+        <div class="resource-panel">
+          <div class="resource-topline"><div><span class="live-dot"></span><span>ARCHIVOS DEL REPOSITORIO</span></div><span class="resource-count" id="rec-count">Conectando con GitHub…</span></div>
+          <div class="resource-controls">
+            <label class="search-box"><span aria-hidden="true">⌕</span><span class="sr-only">Buscar recursos</span><input id="buscar" type="search" placeholder="Buscar un script, modelo o archivo…" autocomplete="off" disabled></label>
+            <div class="filter-chips" id="rec-chips" aria-label="Filtrar recursos"></div>
+          </div>
+          <div class="resource-list" id="rec-lista" aria-live="polite"><p class="resource-message">Cargando recursos…</p></div>
+          <div class="resource-bottom"><span>¿No encuentras lo que buscas?</span><a href="https://github.com/angelisaidchl-lgtm/pixeldev-mx" target="_blank" rel="noopener noreferrer">Explora el repositorio completo ↗</a></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="challenge-section" id="retos">
+      <div class="section-wrap challenge-layout">
+        <div class="challenge-intro">
+          <p class="eyebrow eyebrow-dark">EL CONOCIMIENTO SE CONSTRUYE</p>
+          <h2>Un reto a la vez.<br><em>Un creador más.</em></h2>
+          <p>No esperes a tener la idea perfecta. Completa estos desafíos, experimenta y guarda tu progreso en este dispositivo.</p>
+          <div class="progress-card">
+            <div class="progress-meta"><span>TU PROGRESO</span><strong id="reto-pct">0%</strong></div>
+            <div class="progress-track" id="reto-bar" role="progressbar" aria-label="Progreso de retos" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span id="reto-fill"></span></div>
+            <p id="reto-texto">0 de 4 retos completados</p>
+          </div>
+          <p class="progress-note">Tu progreso se guarda en este navegador. No se sincroniza entre dispositivos.</p>
+        </div>
+        <div class="challenge-list-wrap"><div class="challenge-list-head"><span>CHECKLIST DEL CREADOR</span><span>4 MISIONES</span></div><ul class="challenge-list" id="reto-lista"></ul><div class="achievement-row" id="logros" aria-live="polite"></div></div>
+      </div>
+    </section>
+
+    <section class="community-section" id="comunidad">
+      <div class="section-wrap community-layout">
+        <div class="community-copy"><p class="eyebrow">ESTO TAMBIÉN LO CONSTRUIMOS JUNTOS</p><h2>¿Tienes algo<br>que <em>compartir?</em></h2><p>PixelDev MX crece con ideas, recursos y proyectos de otros creadores. Puedes proponer un script, modelo o tutorial para revisión.</p>
+          <div class="community-links"><a href="https://www.tiktok.com/@pixeldev_mx" target="_blank" rel="noopener noreferrer">TikTok <span>↗</span></a><a href="https://github.com/angelisaidchl-lgtm/pixeldev-mx" target="_blank" rel="noopener noreferrer">GitHub <span>↗</span></a></div>
+        </div>
+        <div class="proposal-card">
+          <div class="proposal-top"><span class="proposal-symbol">＋</span><span>PROPUESTA DE LA COMUNIDAD</span></div>
+          <h3>Comparte lo que creaste.</h3><p>Cuéntanos qué recurso quieres compartir. Se preparará un borrador para que lo revises y lo envíes desde GitHub.</p>
+          <form id="form-prop" class="proposal-form">
+            <label>Nombre del recurso<input name="nombre" required maxlength="80" placeholder="Ej. Puerta automática"></label>
+            <div class="form-row"><label>Tipo<select name="tipo"><option>Script</option><option>Modelo</option><option>Tutorial</option><option>Imagen</option><option>Documento</option><option>Otro</option></select></label><label>Enlace (opcional)<input name="enlace" type="url" placeholder="https://"></label></div>
+            <label>¿Qué hace o para qué sirve?<textarea name="descr" rows="3" required maxlength="600" placeholder="Describe brevemente tu recurso…"></textarea></label>
+            <label class="check-label"><input type="checkbox" name="propio" required><span>Es mío o tengo permiso para compartirlo. No contiene datos personales.</span></label>
+            <button class="button button-lime proposal-submit" type="submit">Preparar propuesta <span>→</span></button>
+          </form>
+          <p class="proposal-status" id="prop-msg" role="status" hidden>El borrador está listo. Ábrelo en GitHub y confirma el envío allí.</p>
+          <a class="button button-outline" id="prop-link" href="#comunidad" target="_blank" rel="noopener noreferrer" hidden>Abrir borrador en GitHub ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-main"><a class="brand footer-brand" href="#inicio"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span>pixeldev<span class="brand-mx">.mx</span></span></a><p>Aprende. Experimenta. Crea tu mundo.</p><a class="back-top" href="#inicio">Volver arriba ↑</a></div>
+    <div class="footer-bottom"><span>© <span id="year"></span> PixelDev MX · Proyecto independiente.</span><span>No afiliado oficialmente a Roblox Corporation. Roblox es una marca de sus respectivos dueños.</span><a href="#normas" id="ver-terminos">Normas y seguridad</a></div>
+    <div class="footer-rules" id="normas"><strong>Un espacio seguro para crear:</strong> trata a todos con respeto, comparte solo contenido propio o autorizado, no publiques datos personales y evita archivos engañosos o maliciosos. Las propuestas se revisan antes de publicarse.</div>
+  </footer>
+
+  <dialog class="search-dialog" id="gbus" aria-label="Buscar en PixelDev MX"><div class="search-dialog-head"><strong>Buscar en PixelDev MX</strong><button type="button" id="cerrar-bus" aria-label="Cerrar búsqueda">×</button></div><label class="search-box dialog-search"><span aria-hidden="true">⌕</span><span class="sr-only">Buscar en el sitio</span><input id="gq" type="search" placeholder="¿Qué quieres encontrar?" autocomplete="off"></label><ul id="gres" class="search-results"></ul></dialog>
+  <button class="floating-search" id="abrir-bus" type="button" aria-label="Buscar en el sitio">⌕</button>
+  <script src="script.js"></script>
+</body>
+</html>
