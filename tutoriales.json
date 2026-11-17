@@ -1,1 +1,47 @@
+{
+  "tutoriales": [
+    {
+      "titulo": "Evita estos 3 errores al crear tu primer juego",
+      "descripcion": "Entiende estas 3 cosas y los resultados pueden cambiar",
+      "url": "https://vt.tiktok.com/ZSpBuxNNQ/",
+      "destacado": false,
+      "etiquetas": ["Primer tuto"]
+    },
+    {
+      "titulo": "Aprende a crear modelos con IA desde celular",
+      "descripcion": "Deja de batallar creando modelos a mano y mejor empieza a crearlos con IA",
+      "url": "https://vt.tiktok.com/ZSpBuQRqa/",
+      "destacado": false,
+      "etiquetas": ["Segundo tuto"]
+    },
+    {
+      "titulo": "Como pasar un modelo de script a f铆sico permanente",
+      "descripcion": "Pasa tus modelos de script generados con IA a un modelo f铆sico permanente",
+      "url": "https://vt.tiktok.com/ZSpS3vkNH/",
+      "destacado": false,
+      "etiquetas": ["Tercer tuto"]
+    },
+    {
+      "titulo": "C贸mo pegar un script en Roblox Studio Lite",
+      "descripcion": "Aprende a insertar un Script o LocalScript, borrar el c贸digo predeterminado y pegar tu c贸digo correctamente desde Android.",
+      "url": "https://vt.tiktok.com/ZSpD15udL/",
+      "destacado": false,
+      "etiquetas": ["Cuarto tuto"]
+    },
+    {
+      "titulo": "C贸mo crear una API Key paso a paso",
+      "descripcion": "Aprende a generar una API Key y consigue la clave que necesitas para conectar una herramienta o servicio.",
+      "url": "https://vt.tiktok.com/ZSpGoGF3o/",
+      "destacado": false,
+      "etiquetas": ["Quinto tuto", "API"]
+    },
+    {
+      "titulo": "Crea modelos para Roblox con 3 inteligencias artificiales",
+      "descripcion": "Descubre c贸mo combinar ChatGPT, Google Flow y Claude para planear un modelo, crear su referencia visual y generar el c贸digo Luau.",
+      "url": "https://vt.tiktok.com/ZSpGoTpPH/",
+      "destacado": false,
+      "etiquetas": ["Sexto tuto", "Inteligencia artificial", "Roblox"]
+    }
+  ]
+}
 
